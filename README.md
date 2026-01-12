@@ -40,27 +40,6 @@ The application is designed using **clean architecture**, **modular structure**,
 - **Swagger / OpenAPI** – Interactive API documentation
 
 ---
-
-## 📂 Project Structure
-
-```text
-BlogFastapiProject/
-│
-├── app/
-│   ├── main.py            # FastAPI application entry point
-│   ├── models.py          # SQLAlchemy database models
-│   ├── schemas.py         # Pydantic schemas
-│   ├── database.py        # Database connection and session
-│   ├── auth.py            # JWT authentication logic
-│   ├── utils.py           # Helper functions
-│   └── routers/
-│       ├── users.py       # User-related routes
-│       └── posts.py       # Blog CRUD routes
-│
-├── templates/             # HTML templates (if applicable)
-├── static/                # CSS and JavaScript files
-├── requirements.txt       # Project dependencies
-└── README.md              # Documentation
 ## 🔐 Authentication (JWT)
 
 - User registration with email and password
@@ -110,9 +89,31 @@ FastAPI provides built-in interactive API documentation:
 ---
 
 ## ▶️ Run Locally
-
 ### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Sahil9424r/BlogFastapiProject.git
 cd BlogFastapiProject
+## 📂 Project Structure
+```
+---
+```text
+BlogFastapiProject/
+│
+├── app/
+│   ├── main.py            # FastAPI application entry point
+│   ├── models.py          # SQLAlchemy database models
+│   ├── schemas.py         # Pydantic schemas
+│   ├── database.py        # Database connection and session
+│   ├── auth.py            # JWT authentication logic
+│   ├── utils.py           # Helper functions
+│   └── routers/
+│       ├── users.py       # User-related routes
+│       └── posts.py       # Blog CRUD routes
+│
+├── templates/             # HTML templates (if applicable)
+├── static/                # CSS and JavaScript files
+├── requirements.txt       # Project dependencies
+└── README.md              # Documentation
+```
+
