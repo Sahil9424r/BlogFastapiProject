@@ -1,0 +1,6 @@
+fastapi
+sqlalchemy
+uvicorn
+python-jose
+werkzeug
+pydantic
