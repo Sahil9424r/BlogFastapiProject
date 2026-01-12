@@ -1,0 +1,14 @@
+:root {
+  --primary-blue: #2563eb;
+  --dark-blue: #1e40af;
+  --bg-light: #f8fafc;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-light);
+  font-family: 'Inter', sans-serif;
+  color: #1e293b;
+}
